@@ -1,0 +1,80 @@
+body{
+	background-size: cover;
+	background-position: center; 
+}
+
+
+.form-box{
+	max-width: 350px;
+	border:1px solid #ced4da;
+	/*margin: 10%auto 0;*/ /*form-box jadi ke tengah*/
+}
+
+
+
+
+
+.booking-form{
+	padding: 0 20px 20px;
+}
+
+.booking-form label{
+	margin-bottom: 5px;
+	margin-top:10px;
+	font-size: 12px;
+	color: #000;
+}
+
+.booking-form button{
+	margin-bottom: 5px;
+	margin-top:10px;
+	font-size: 12px;
+	color: #000;
+}
+
+input::placeholder{
+	color: #7e877c !important;
+}
+
+.input-grp{
+	width:151px;
+	display: inline-block;
+}
+
+.form-control {
+	font-size: 12px !important;
+	border-radius: 0 !important;
+	color: #000 !important;
+	box-shadow: none !important;
+}
+
+
+
+.travel{
+	width: 100%;
+	background: #fff !important;
+	color: #000  !important;
+	
+	padding: 9px 0 !important;
+	font-size: 12px !important;
+	border: 1px solid #ced4da !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+
+.travel:hover {
+	background-color: #94c045!important;
+	color: #fff !important;
+	transition: 0.5s;
+}
+
+.select2-container .select2-selection--single{
+    height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+         border: 1px solid #ccc !important; 
+     border-radius: 0px !important; 
+}
+
+
+
